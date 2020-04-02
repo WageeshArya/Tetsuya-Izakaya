@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+button#next{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+
+button#prev{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+
+.buttons button{
+    border: 2px solid white;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+    outline: none;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+.content > h1{
+    color: black;
+    font-family: 'Quicksand', serif;
+    margin-left: 0.25em;
+}
+.content > p{
+    font-family: 'Abel', sans-serif;
+    margin: 0.5em;
+}
+
+.content{
+    color: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 4em;
+    width: 60%;
+    background-color: rgba(255,255,255,0.8);
+    padding-bottom: 1em;
+}
+
+@media(max-width: 600px){
+    .content{
+        width: 100%;
+        bottom: 0;
+    }
+    .content h1{
+        margin: 0.75em;
+        margin-bottom: 0.25em;
+    }
+    .content p{
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+    }
+}
+
+.slide.current{
+    opacity: 1;
+}
+
+.slide:first-child{
+    background: url("./images/1.jpg") no-repeat center center/cover;
+}
+
+.slide:nth-child(2){
+    background: url("./images/2.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(3){
+    background: url("./images/3.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(4){
+    background: url("./images/4.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(5){
+    background: url("./images/5.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(6){
+    background: url("./images/6.jpg") no-repeat center top/cover;
+}
