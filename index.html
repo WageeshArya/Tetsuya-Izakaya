@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hamburger.css">
     <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="awAbMenu.css">
     <title>Tetsuya - 居酒屋</title>
 </head>
 <body>
@@ -22,17 +24,16 @@
                 <div>
                     <ul class="menu-list">
                         <li><a href="#slider">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Reservations</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div> 
-        <div id="slider" class="slider">
-            <div class="slides">
+    <div id="slider" class="slider">
+        <div class="slides">
             <div class="slide current">
                 <div class="content">
                     <h1>WELCOME TO TETSUYA</h1>
@@ -48,18 +49,7 @@
             <div class="slide">
                 <div class="content">
                     <h1>A UNIQUE EXPERIENCE</h1>
-                    <p>Upon entering the space,
-                            the attention to details
-                            and design are clearly
-                            visible. The clean
-                            contemporary lines with
-                            natural woods create
-                            a sense of warmth
-                            and casual comfort. It is
-                            complimented by the chefs’
-                            vision of simplicity in the
-                            food with a few touches of
-                            modern creativity.</p>
+                    <p>Upon entering the space, the attention to details and design are clearly visible. The clean contemporary lines with natural woods create a sense of warmth and casual comfort. It is complimented by the chefs’ vision of simplicity in the food with a few touches of modern creativity.</p>
                 </div>
             </div>
             <div class="slide">
@@ -86,6 +76,67 @@
                 <button id="next"><i class="fas fa-arrow-right"></i></button>
             </div>
         </div>
+
+        <div class="awards">
+            <img src="./awards/2.png" alt="">
+            <img src="./awards/4.png" alt="">
+            <img src="./awards/5.png" alt="">
+        </div>
+        <div id="about" class="about">
+            <h1>ESSENCE OF TETSUYA</h1>
+            <hr>
+            <div class="aboutP">
+                <p>Featuring modern Japanese cuisine that is authentic but not traditional. The menu showcases a variety of dishes from its three kitchens: the main kitchen, the sushi counter and the robata grill.</p>
+                <p>A sophisticated twist on the traditional Japanese Izakaya style of informal eating and drinking; Tetsuya has 12 venues globally and 2 pop up locations.</p>
+            </div>
+        </div>
+
+        <div id="menu" class="divider">
+            <h1>OUR MENU</h1>
+            <hr>
+        </div>
+        
+
+        <div class="our-menu">
+            <hr>
+            <div class="menu-item">
+                <h2>Tetsuya Classics</h2>
+                <p>Edamame | Crispy Tuna Rice | Yellowtail with Jalapeño<br>Crispy Brussels Sprouts<br>Baked Crab Handroll | Popcorn Rock Shrimp<br>Beef Shortribs<br>Liquid Nitrogen Snowball Cheesecake</p>
+            </div>
+            <div class="menu-item">
+                <h2>New Classics</h2>
+                <p>Tuna Tartare Nori Crisps | Spicy Edamame<br>Small Sashimi Moriawase | Gyoza<br>King Crab Tempura | A4 Wagyu Fried Rice<br>Robata Corn<br>Liquid Nitrogen Snowball Cheesecake</p>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <h2>Our most spectacular and interactive dishes showcasing talent, innovation and creativity.</h2>
+                <p>Toro Tartare & Beluga Caviar(Prepared Tableside)<br>Yellowtail Sashimi with Jalapeño<br>Wagyu Gyoza<br>Smoked Wagyu BBQ Shortribs<br>Robatayaki Maitake Mushrooms<br>King Crab Tempura<br>Sushi and Sashimi<br>Liquid Nitrogen Snowball Cheesecake</p>
+            </div>
+            <hr>
+        </div>
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <hr>
+        <div class="contact-flex">
+            <div class="location">
+                <h2>LOCATION</h2>
+                <p>Oklahoma City</p>
+                <p>1539 N. Calvert</p>
+                <p>Oklahoma City,OK - 70012</p>
+                <p>405 888-66xx</p>
+            </div>
+            <div class="times">
+                <h2>HOURS</h2>
+                <p>Monday</p>
+                <p>Closed</p>
+                <p>Tuesday-Friday</p>
+                <p>11am — 2pm, 5pm — 9pm</p>
+                <p>Saturday & Sunday</p>
+                <p>5pm — 9pm</p>
+            </div>
+        </div>
+    </div>
+    <div class="CR">Copyright © 2020, Wageesh Arya</div>
     <script src="App.js"></script>
 </body>
 </html>

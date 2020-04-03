@@ -1,0 +1,123 @@
+.awards{
+    display: flex;
+    background-color: #FDFCFA;
+    justify-content: center;
+}
+.awards img{
+    width: 150px;
+    margin: 2em;
+}
+.awards img:nth-child(2){
+    width: 200px;
+}
+.about{
+    background-color: whitesmoke;
+    padding: 2em 0;
+}
+
+.about > h1{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about hr{
+    width: 50%;
+}
+.about p{
+    margin: 1em;
+    text-align: justify;
+}
+
+.aboutP{
+    display: flex;
+    margin: 2em;
+    font-family: 'Abel','sans-serif';
+    color: rgba(0,0,0,0.7);
+}
+
+.divider{
+    width: 100%;
+    background-color: black;
+    padding: 2em 0;
+    color: rgba(255,255,255,0.9);
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.divider hr{
+    width: 40%;
+}
+
+.our-menu{
+    padding: 2em 0;
+    background-color: white;
+}
+
+.our-menu hr{
+    width: 40%;
+}
+
+.our-menu h2{
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 0.5em;
+}
+
+.our-menu .menu-item p{
+    text-align: center;
+    font-family: 'Abel','serif';
+    line-height: 2;
+}
+
+.contact{
+    background-color: whitesmoke;
+    padding: 2em;
+}
+.contact hr{
+    width: 40%;
+}
+
+.contact h1{
+    font-family: 'Roboto','sans-serif';
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.contact h2{
+    font-family: 'Quicksand','serif';
+}
+
+.contact p{
+    font-family: 'Abel','serif';
+}
+
+.contact-flex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+}
+
+.CR{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Abel','serif';
+    text-align: center;
+    padding: 1em 0;
+}
+
+@media (max-width: 700px){
+    .awards img{
+        margin: 1em;
+        width: 75px;
+    }
+    .awards img:nth-child(2){
+        width: 100px;
+    }
+    .aboutP{
+        display: block;
+    }
+}

@@ -82,21 +82,21 @@ button#prev{
 }
 
 .slide:first-child{
-    background: url("./images/1.jpg") no-repeat center center/cover;
+    background: url("./optimizedimg/1.jpg") no-repeat center center/cover;
 }
 
 .slide:nth-child(2){
-    background: url("./images/2.jpg") no-repeat center top/cover;
+    background: url("./optimizedimg/2.jpg") no-repeat center top/cover;
 }
 .slide:nth-child(3){
-    background: url("./images/3.jpg") no-repeat center top/cover;
+    background: url("./optimizedimg/3.jpg") no-repeat center top/cover;
 }
 .slide:nth-child(4){
-    background: url("./images/4.jpg") no-repeat center top/cover;
+    background: url("./optimizedimg/4.jpg") no-repeat center top/cover;
 }
 .slide:nth-child(5){
-    background: url("./images/5.jpg") no-repeat center top/cover;
+    background: url("./optimizedimg/5.jpg") no-repeat center top/cover;
 }
 .slide:nth-child(6){
-    background: url("./images/6.jpg") no-repeat center top/cover;
+    background: url("./optimizedimg/6.jpg") no-repeat center top/cover;
 }
