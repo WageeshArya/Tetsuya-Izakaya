@@ -1,4 +1,5 @@
 .awards{
+    height: auto;
     display: flex;
     background-color: #FDFCFA;
     justify-content: center;
