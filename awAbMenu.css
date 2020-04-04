@@ -1,15 +1,18 @@
 .awards{
     height: auto;
     display: flex;
+    flex-direction: column;
     background-color: #FDFCFA;
     justify-content: center;
 }
 .awards img{
     width: 150px;
     margin: 2em;
+    height: auto;
 }
 .awards img:nth-child(2){
     width: 200px;
+    height: auto;
 }
 .about{
     background-color: whitesmoke;
