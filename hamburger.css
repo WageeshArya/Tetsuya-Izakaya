@@ -1,8 +1,8 @@
-#logo> img{
+#logo > img {
     max-width: 200px;
     margin-top: 0.4em;
 }
-#logo{
+#logo {
     position: absolute;
     background-color: rgba(255,255,255,0.7);
     height: 70px;
@@ -12,19 +12,19 @@
 .menu-list {
     list-style: none;
 }
-.menu-list > li > a{
+.menu-list > li > a {
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Quicksand';
     cursor: pointer;
 }
-.menu-wrap{
+.menu-wrap {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
-.menu-wrap .toggler{
+.menu-wrap .toggler {
     position: absolute;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@
     height: 60px;
     opacity: 0; 
 }
-.menu-wrap .hamburger{
+.menu-wrap .hamburger {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@
     justify-content: center;
 }
 
-.menu-wrap .hamburger > div{
+.menu-wrap .hamburger > div {
     position: relative;
     width: 100%;
     height: 2px;
@@ -59,7 +59,7 @@
     transition: all 0.2s ease;
 }
 
-.menu-wrap .hamburger > div:before,.menu-wrap .hamburger > div:after{
+.menu-wrap .hamburger > div:before,.menu-wrap .hamburger > div:after {
     content: '';
     position: absolute;
     top: -12px;

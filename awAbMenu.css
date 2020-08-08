@@ -151,3 +151,14 @@ iframe{
         width: 50%;
     }
 }
+
+@media (max-width: 360px) {
+    .awards img {
+        width: 75px;
+        margin: 0.5em;
+    }
+
+    .contact-grid iframe {
+        width: 200px;
+    }
+}

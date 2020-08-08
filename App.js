@@ -1,6 +1,8 @@
 const slides = document.querySelectorAll(".slide");
 const next = document.querySelector("#next");
 const prev = document.querySelector("#prev");
+const checkbox = document.querySelector(".toggler");
+const menuList = document.querySelectorAll(".listItem");
 const auto = true;
 const timeInterval = 10000;
 let slideInterval;
@@ -48,4 +50,10 @@ prev.addEventListener("click", e => {
 
 if(auto){
     slideInterval = setInterval(nextSlide,timeInterval);
+}
+
+for (const item of menuList) {
+    item.addEventListener('click', e => {
+        checkbox.checked = false;
+    })
 }
